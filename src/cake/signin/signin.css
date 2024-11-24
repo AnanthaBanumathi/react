@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sign_cont{
+    width: 100%;
+    padding: 50px 100px 50px 100px;
+    /* background-color: #fce3fe;     */
+}
+.signin_page{
+    width: 580px;
+    height: 450px;
+    background-color: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.signin_page h1{
+    margin: 20px 0;
+}
+.signin_fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.signin_fields input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #9c9c9c;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.submit_cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 500px;
+}
+.sign_cont button{
+    width: 120px;
+    height: 32px;
+    margin-right: 40px;
+    color: white;
+    background-color: #ff4141;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.sign_cont p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #5c5c5c;
+}
+.sign_cont button:active{
+    background-color: #d67a5e;
+}
+.signin_page p{
+    font-size: 16px;
+    color: #242222;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .sign_cont {
+        padding: 30px 20px; /* Reduce padding on smaller screens */
+    }
+
+    .signin_page {
+        width: 90%; /* Make the sign-in box responsive */
+        height: auto; /* Allow height to adjust */
+        padding: 30px; /* Adjust padding */
+    }
+
+    .signin_fields {
+        gap: 20px; /* Reduce gap between fields */
+    }
+
+    .signin_fields input {
+        height: 60px; /* Reduce input height for smaller screens */
+        font-size: 16px; /* Smaller font size for inputs */
+    }
+
+    .submit_cont {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center; /* Center align */
+        width: 100%; /* Full width for buttons */
+    }
+
+    .sign_cont button {
+        width: 100%; /* Full-width buttons for better touch access */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add margin between buttons */
+        height: 50px; /* Adjust button height */
+        font-size: 20px; /* Smaller font size for button */
+    }
+
+    .sign_cont p {
+        font-size: 20px; /* Smaller font size */
+    }
+
+    .signin_page p {
+        font-size: 14px; /* Adjust paragraph font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .sign_cont {
+        padding: 20px; /* Further reduce padding for very small screens */
+    }
+
+    .signin_page {
+        width: 100%; /* Full width for mobile devices */
+        padding: 20px; /* Further adjust padding */
+    }
+
+    .signin_fields input {
+        height: 50px; /* Further reduce input height */
+        font-size: 14px; /* Smaller font size for inputs */
+    }
+
+    .sign_cont button {
+        height: 45px; /* Adjust button height */
+        font-size: 18px; /* Smaller font size for button */
+    }
+
+    .sign_cont p {
+        font-size: 18px; /* Smaller font size */
+    }
+
+    .signin_page p {
+        font-size: 12px; /* Adjust paragraph font size */
+    }
+}

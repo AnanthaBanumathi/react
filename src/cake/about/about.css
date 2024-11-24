@@ -1,0 +1,35 @@
+.main{
+    color:white;
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:80px;
+}
+.heading{
+ color:black;
+ font-family: cursive;
+ font-weight: bolder;
+}
+.second{
+    margin-top: 20px;
+    color:white;
+    font-size: 2em;
+}
+.bold{
+    color:aqua
+}
+.three{
+    color:black;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.para{
+    font-size: 2rem;
+}
+.four{
+    color:black;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.para1{
+    font-size: 2rem;
+}
